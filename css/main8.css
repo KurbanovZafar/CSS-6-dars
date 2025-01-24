@@ -1,0 +1,111 @@
+.novbar{
+    width: 1300px;
+    background-color: black;
+    margin: 20px auto;
+}
+.novbar-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.novbar-item{
+    display: inline-block;
+    padding: 25px 10px;
+}
+.novbar-item a{
+    text-decoration: none;
+    color: white;
+}
+.a{
+    width: 150px;
+    height: 60px;
+    float: left;
+    margin: 5px;
+}
+.i{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    color: white;
+}
+.s{
+    width: 30px;
+    height: 20px;
+}
+.clear{
+    clear: both;
+}
+.novbar-item:after{
+    background-color: white;
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../rasm/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.drop-menu{
+    position: relative;
+}
+.drop-menu{
+    position: absolute;
+    top: 110%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: #f1f1f1;
+    z-index: 1;
+    display: none;
+    
+}
+.drop-menu:hover > .drop-item{
+    display: block;
+}
+.drop-item{
+    list-style: none;
+    color: #808080;
+    padding: 10px 15px;
+    position: relative;
+}
+.drop-item > .drop-menu{
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.drop-item:hover > .drop-menu{
+    display: block;
+}
+.novbar-item{
+    position: relative;
+}
+.drop-menu{
+    position: absolute;
+    top: 105%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: #f1f1f1;
+}
+.drop-item:hover > .drop-menu{
+    display: block;
+}
+.drop-item{
+    list-style: none;
+    color: #808080;
+    padding: 10px 15px;
+    position: relative;
+}
+.drop-item > .drop-menu{
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.drop-item:hover > .drop-menu{
+    display: block;
+}
