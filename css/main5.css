@@ -1,0 +1,115 @@
+.wrap{
+    width: 1200px;
+}
+.btn{
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    float: left;
+}
+.btn1{
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    float: left;
+    margin-top: 60px;
+    margin-left: -150px;
+}
+.btn2{
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    float: left;
+    margin-top: 120px;
+    margin-left: -150px;
+}
+.btn3{
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 460px;
+    margin-top: -180px;
+    float: left;
+}
+.btn4{
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 460px;
+    margin-top: -120px;
+    float: left;
+}
+.btn5{
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 460px;
+    margin-top: -60px;
+    float: left;
+}
+.novbar-menu{
+    width: 130px;
+    color: darkgray;
+    display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+    border: 1px solid gray;
+    margin: 5px;
+}
+.novbar-menu1{
+    width: 130px;
+    color: black;
+    display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+    border: 1px solid aqua;
+    margin: 5px;
+}
+.novbar-menu2{
+    width: 130px;
+    color: gray;
+    display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+    border: 1px solid gray;
+    margin: 5px;
+}
+.clear{
+    clear: both;
+}

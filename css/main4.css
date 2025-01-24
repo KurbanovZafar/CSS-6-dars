@@ -1,0 +1,164 @@
+body{
+    background-color: bisque;
+}
+.wrap{
+    width: 1200px;
+    margin-left: 400px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 1px solid blue;
+    font-weight: bold;
+    margin: 0px;
+}
+.btn1{
+    background-color: green;
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 1px solid green;
+    font-weight: bold; 
+    margin-top: 20px;
+}
+.btn2{
+    background-color: aqua;
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 1px solid aqua;
+    font-weight: bold; 
+}
+.btn3{
+    background-color: orange;
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 1px solid orange;
+    font-weight: bold;
+}
+.btn4{
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 1px solid red;
+    font-weight: bold;
+}
+.btn5{
+    width: 75px;
+    color: blue;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 1px solid blue;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.btn6{
+    width: 75px;
+    color: green;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 1px solid green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.btn7{
+    width: 35px;
+    color: aqua;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 2px solid aqua;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.btn8{
+    width: 75px;
+    color: orange;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 2px solid orange;
+    font-weight: bold;
+    margin-top: 20px
+}
+.btn9{
+    width: 75px;
+    color: red;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 2px solid red;
+    font-weight: bold;
+    margin-top: 20px
+}
+.btn10{
+    width: 75px;
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 2px solid blue;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px
+}
+.btn11{
+    width: 75px;
+    background-color: green;
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 2px solid green;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px
+}
+.btn12{
+    width: 35px;
+    background-color: aqua;
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 2px solid aqua;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px
+}
+.btn13{
+    width: 75px;
+    background-color: orange;
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 2px solid orange;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px
+}
+.btn14{
+    width: 75px;
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px
+}
