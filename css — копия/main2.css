@@ -1,0 +1,82 @@
+body{
+    background-color: #c8e9f0;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: white;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar-item{
+    display: inline-block;
+    padding: 25px 10px;
+}
+.navbar-item a{
+    color: gray;
+    text-decoration: none;
+}
+.i{
+    width: 200px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.a{
+    width: 10px;
+    height: 10px;
+   
+}
+.navbar-item:hover a{
+    color: #34c9cb;
+}
+.navbar-item::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../rasm/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.navbar-item{
+    position: relative;
+}
+.drop-menu{
+    position: absolute;
+    top: 110%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: #f1f1f1;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu{
+    display: block;
+}
+.drop-menu-item{
+    list-style: none;
+    color: #808080;
+    padding: 10px 15px;
+    position: relative;
+}
+.drop-menu-item > .drop-menu{
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.drop-menu-item:hover > .drop-menu{
+    display: block;
+}
+.drop-menu-item:hover > .drop-menu{
+    display: block;
+}

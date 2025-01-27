@@ -1,0 +1,91 @@
+.card{
+    width: 300px;
+    height: 450px;
+    border: 2px ridge;
+    margin: 50px;
+    float: left;
+}
+.card-1{
+    width: 100%;
+    height: 50%;
+    background-color: lightgray;
+    position: relative;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGLYCUFcT2fjlPZqYqoOlQLtdUxmgRyxdid7V6PheLL1HpVjcvvYBPz7kslArJcvAQA4&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+.text{
+    background-color: darkorange;
+    color: white;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: px;
+    left: 220px;
+}
+.planshet{
+    color: gray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.yangi{
+    width: 50px;
+    background-color: green;
+    color: white;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+.smartfon{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.gb{
+    font-weight: bold;
+    margin-left: 10px;  
+}
+.cc{
+    text-decoration: line-through;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    margin-top: -40px;
+}
+.ss{
+    margin-left: 120px;
+    margin-top: -45px;
+    font-weight: bold;
+}
+.ee{
+    background-color: red;
+    color: white;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+    position: absolute;
+    left: 80px;
+    margin-top: 0px;
+}
+.ooo{
+    background-color: yellow;
+    color: black;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.ekonom{
+    margin-top: 10px;
+    margin-left: 195px;
+}
