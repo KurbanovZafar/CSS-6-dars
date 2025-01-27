@@ -1,0 +1,152 @@
+body{
+    background-color: #c8e9f0;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: white;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar-item{
+    display: inline-block;
+    padding: 25px 10px;
+}
+.navbar-item a{
+    color: gray;
+    text-decoration: none;
+}
+.flex-box{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.flex-item{
+    /*border: 1px solid red;*/
+    padding: 10px 15px;
+}
+.flex-item p{
+    background-color: white;
+    padding: 16px;
+}
+.navbar-item:hover a{
+    color: #34c9cb;
+}
+.navbar-item:hover{
+   background-color: #f1f1f1;
+ /*border-bottom: 2px solid blue;*/
+}
+.wrap{
+    width: 1200px;
+    margin: 10px auto;
+    background-color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #34c9cb;
+    border-bottom: 8px solid #248f91;
+    border-radius: 8px;
+    transition: all 2ms ease;
+}
+.btn:active{
+    margin-top: 4px;
+    border-bottom-width: 4px;
+}
+.btn:focus{
+    margin-top: 4px;
+    border-bottom-width: 4px;
+}
+.btn:hover{
+    border-radius: 28px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 200px;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.fixed{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #248f91;
+    position: fixed;
+    right: 40px;
+    bottom: 80px;
+    line-height: 45px;
+    background-image: url(../rasm/down-arrow.svg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotate(180deg);
+}
+.flex-item{
+    position: relative;
+    z-index: -1;
+}
+.badge{
+    background-color: #248f91;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+.good{
+    background-color: gray;
+    color: white;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 26px;
+    left:  15px;
+}
+.navbar-item::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../rasm/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.navbar-item{
+    position: relative;
+}
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: #f1f1f1;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu{
+    display: block;
+}
